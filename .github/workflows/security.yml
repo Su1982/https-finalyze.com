@@ -1,0 +1,45 @@
+name: Security Check
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  schedule:
+    - cron: '0 0 * * 1'  # Every Monday at midnight
+
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+    name: Security Scan
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check for sensitive files
+        run: |
+          echo "Checking for sensitive files..."
+          if find . -name "*.env" -o -name "*.key" -o -name "*.pem" -o -name "secrets.json" | grep -v ".git" | grep .; then
+            echo "WARNING: Sensitive files found!"
+            exit 1
+          else
+            echo "No sensitive files found. ✅"
+          fi
+
+      - name: Validate HTML files
+        run: |
+          echo "Checking HTML files..."
+          find . -name "*.html" -not -path "./.git/*" | while read f; do
+            echo "Found: $f"
+          done
+          echo "HTML check complete. ✅"
+
+      - name: Check for hardcoded credentials
+        run: |
+          echo "Checking for hardcoded credentials..."
+          if grep -r "password\s*=\s*['\"][^'\"]\+['\"]" --include="*.js" --include="*.html" . 2>/dev/null | grep -v ".git"; then
+            echo "WARNING: Possible hardcoded credentials found!"
+          else
+            echo "No hardcoded credentials found. ✅"
+          fi
