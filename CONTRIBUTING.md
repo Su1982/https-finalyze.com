@@ -1,30 +1,29 @@
-# دليل المساهمة
+# Contributing to https-finalyze.com
 
-شكراً لاهتمامك بالمساهمة في هذا المشروع! 🎉
+Thank you for your interest in contributing to the finalyze.com website!
 
-## كيفية المساهمة
+## How to Contribute
 
-### الإبلاغ عن الأخطاء
-1. تأكد من أن الخطأ لم يُبلَّغ عنه مسبقاً في [Issues](../../issues)
-2. افتح Issue جديداً مع وصف واضح للمشكلة
-3. أضف خطوات إعادة إنتاج المشكلة
+1. **Fork** the repository
+2. **Create** a new branch: `git checkout -b feature/your-feature`
+3. **Commit** your changes: `git commit -m "Add: your feature description"`
+4. **Push** to the branch: `git push origin feature/your-feature`
+5. **Open** a Pull Request
 
-### اقتراح تحسينات
-1. افتح Issue جديداً بعنوان واضح
-2. اشرح الفكرة بالتفصيل
-3. أضف أمثلة إذا أمكن
+## Code Standards
 
-### تقديم Pull Request
-1. Fork المستودع
-2. أنشئ فرعاً جديداً: `git checkout -b feature/اسم-الميزة`
-3. قم بالتغييرات المطلوبة
-4. Commit التغييرات: `git commit -m 'إضافة ميزة جديدة'`
-5. Push الفرع: `git push origin feature/اسم-الميزة`
-6. افتح Pull Request
+- Write clean, readable HTML/CSS/JS
+- Ensure responsive design on all screen sizes
+- Test on multiple browsers before submitting
+- Follow existing code style and naming conventions
 
-## قواعد السلوك
-- كن محترماً ومهنياً في تعاملاتك
-- اكتب كوداً نظيفاً وموثقاً
-- اتبع أسلوب الكود المستخدم في المشروع
+## Reporting Bugs
 
-شكراً لمساهمتك! 🙏
+Please open an [Issue](../../issues) with:
+- A clear description of the bug
+- Browser and OS information
+- Screenshots if applicable
+
+## Contact
+
+For questions, reach out via [GitHub](https://github.com/Su1982) or support at [Ko-fi](https://ko-fi.com/suleiman1982).
