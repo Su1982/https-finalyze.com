@@ -1,51 +1,55 @@
-# https-finalyze.com - ملفات موقع finalyze.com
+# Finalyze — Smart Financial Management Platform
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/الموقع-finalyze.com-00C853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://finalyze.com)
-[![Status](https://img.shields.io/badge/الحالة-نشط-brightgreen?style=for-the-badge)](https://finalyze.com)
+[![Website](https://img.shields.io/badge/🌐_Live_Website-finalyze--suleiman.surge.sh-00C853?style=for-the-badge)](https://finalyze-suleiman.surge.sh)
+[![Ko-fi](https://img.shields.io/badge/☕_Support-Ko--fi-FF5E5B?style=for-the-badge)](https://ko-fi.com/suleiman1982)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+[![Made in Finland](https://img.shields.io/badge/Made_in-Finland_🇫🇮-003580?style=for-the-badge)](https://github.com/Su1982)
 
 </div>
 
 ---
 
-## 📌 نظرة عامة
+## About
 
-هذا المستودع يحتوي على ملفات وكود موقع [finalyze.com](https://finalyze.com)، منصة إدارة مالية متكاملة.
+**Finalyze** is a free, open-source personal financial management platform built in Finland 🇫🇮. Track expenses, plan budgets, generate reports, and grow your wealth — all in one place, with full privacy and zero cost.
 
----
-
-## 🌐 الموقع
-
-يمكنك زيارة الموقع مباشرة على: **[https://finalyze.com](https://finalyze.com)**
+🌐 **Live Website:** [https://finalyze-suleiman.surge.sh](https://finalyze-suleiman.surge.sh)
 
 ---
 
-## 📁 هيكل المشروع
+## Features
 
-```
-https-finalyze.com/
-├── README.md          # توثيق المشروع
-├── SECURITY.md        # سياسة الأمان
-└── .gitignore         # ملفات مستثناة من Git
-```
-
----
-
-## 🔐 الأمان
-
-للإبلاغ عن ثغرة أمنية، يرجى مراجعة [سياسة الأمان](SECURITY.md).
+| Feature | Description |
+|---------|-------------|
+| 📊 Expense Tracking | Real-time monitoring with smart categorization |
+| 💰 Budget Planning | Monthly budgets with overspend alerts |
+| 📈 Financial Reports | Detailed reports and trend visualization |
+| 🔒 Secure & Private | No data collection, fully transparent |
+| 📱 Mobile Friendly | Responsive design for all devices |
+| 🌍 Multi-Currency | EUR, USD, GBP and more |
 
 ---
 
-## 👤 المطور
+## Tech Stack
 
-**سليمان** - [@Su1982](https://github.com/Su1982)
+- **Frontend:** HTML5, CSS3, Vanilla JavaScript
+- **Hosting:** [Surge.sh](https://surge.sh) (free, permanent)
+- **License:** MIT
+
+---
+
+## Support
+
+If you find Finalyze useful, please consider:
+- ⭐ **Starring** this repository
+- ☕ **Buying me a coffee** on [Ko-fi](https://ko-fi.com/suleiman1982)
 
 ---
 
 <div align="center">
 
-صنع بـ ❤️ بواسطة [Su1982](https://github.com/Su1982)
+Built with ❤️ in Finland 🇫🇮 by [Suleiman](https://github.com/Su1982) · MIT License
 
 </div>
